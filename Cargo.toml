@@ -1,0 +1,15 @@
+[package]
+name = "rust-wasm-utils"
+version = "1.0.0"
+authors = ["phpgege@gmail.com"]
+description = "utils"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/liurongqing/wasm-utils"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
